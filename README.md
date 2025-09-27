@@ -157,17 +157,50 @@ According to the official evaluation, BitNet b1.58 2B4T shows:
 - **Storage**: ~2GB for model weights
 - **Python**: 3.9+ required
 
+## 🎓 RAG System - Wikipedia to Flashcards
+
+This project now includes a complete RAG (Retrieval-Augmented Generation) system that can automatically generate educational flashcards from Wikipedia articles using BitNet!
+
+### Quick RAG Demo
+```bash
+# Run the interactive RAG system
+uv run python rag_system.py
+
+# Or try the demo
+uv run python demo_rag.py
+
+# Test individual components
+uv run python test_rag_system.py wikipedia
+uv run python test_rag_system.py flashcards
+uv run python test_rag_system.py full
+```
+
+### RAG Features
+- **Wikipedia Processing**: Automatically fetches and processes Wikipedia articles
+- **Intelligent Chunking**: Breaks down long articles into manageable chunks  
+- **BitNet Integration**: Uses BitNet for efficient flashcard generation
+- **Multiple Card Types**: Content-specific and summary flashcards
+- **Export Options**: Save flashcards to JSON format
+
+See [RAG_README.md](RAG_README.md) for complete documentation.
+
 ## Project Structure
 
 ```
 bitnet-test/
 ├── test_basic.py           # Basic functionality test
 ├── test_comprehensive.py   # Comprehensive testing suite
-├── pyproject.toml          # Project configuration & dependencies
-├── install.bat            # Windows installation script (optional)
-├── README.md              # This documentation
+├── rag_system.py          # Main RAG application
+├── wikipedia_processor.py  # Wikipedia content processing
+├── flashcard_generator.py # BitNet flashcard generation
+├── test_rag_system.py     # RAG system tests
+├── demo_rag.py           # RAG system demo
+├── RAG_README.md         # RAG system documentation
+├── pyproject.toml         # Project configuration & dependencies
+├── install.bat           # Windows installation script (optional)
+├── README.md             # This documentation
 ├── agents.md             # Testing agents documentation
-└── uv.lock               # Dependency lock file
+└── uv.lock              # Dependency lock file
 ```
 
 ## References

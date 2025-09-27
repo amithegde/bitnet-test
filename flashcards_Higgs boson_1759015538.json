@@ -1,0 +1,66 @@
+{
+  "source": {
+    "url": "https://en.wikipedia.org/wiki/Higgs_boson",
+    "title": "Higgs boson",
+    "description": "Elementary particle involved with rest mass",
+    "word_count": 88,
+    "chunk_count": 1
+  },
+  "flashcards": {
+    "content_cards": [
+      {
+        "question": "[Question]",
+        "answer": "[Answer]  Generate flashcards that test understanding of key concepts, facts, and relationships in the text."
+      },
+      {
+        "question": "What is the Higgs boson?",
+        "answer": "The Higgs boson is an elementary particle in the Standard Model of particle physics."
+      },
+      {
+        "question": "What is the Higgs boson produced by?",
+        "answer": "The Higgs boson is produced by the quantum excitation of the Higgs field."
+      },
+      {
+        "question": "What are the properties of the Higgs boson?",
+        "answer": "The Higgs boson is a massive scalar boson that couples to particles whose mass arises from their interactions with the Higgs Field. It has zero spin, even (positive) parity, no electric charge, and no colour charge."
+      },
+      {
+        "question": "What happens to the Higgs boson immediately after generation?",
+        "answer": "The Higgs boson is very unstable and decays into other particles almost immediately upon generation."
+      },
+      {
+        "question": "What is the role of the Higgs boson in the Standard Model of particle physics?",
+        "answer": "The Higgs boson is responsible for giving mass to other particles through their interactions with the Higgs Field."
+      },
+      {
+        "question": "What is the significance of the Higgs boson's stability?",
+        "answer": "The Higgs boson's instability means it decays into other particles almost immediately, which is an important aspect of the Standard Model."
+      },
+      {
+        "question": "How does the Higgs boson couple to particles?",
+        "answer": "The Higgs boson couples to particles whose mass arises from their interactions with the Higgs Field."
+      }
+    ],
+    "summary_cards": [
+      {
+        "question": "[Question]",
+        "answer": "The discovery of the Higgs boson confirmed the existence of the Higgs Field and provided strong evidence for the Standard Model of particle physics. **Q:** How does the Higgs boson contribute to particle physics? **A:** The Higgs boson is crucial for explaining why other particles have mass. It interacts with these particles through the Higgs Field, imparting"
+      }
+    ],
+    "total_cards": 9
+  },
+  "processing": {
+    "time_seconds": 1183.06,
+    "cards_per_minute": 0.46,
+    "timestamp": 1759015538.1570811
+  },
+  "metadata": {
+    "key_concepts": [
+      "Model",
+      "Standard",
+      "Higgs"
+    ],
+    "chunks_processed": 1,
+    "model_used": "microsoft/bitnet-b1.58-2B-4T"
+  }
+}
